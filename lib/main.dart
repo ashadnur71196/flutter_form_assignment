@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_assignment/Home.dart';
+import 'package:flutter_ui_assignment/Screens/Tip%20Calculator.dart';
+
+import 'Screens/Home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Home(),
+      home: TipCalculator(),
     );
   }
 }
